@@ -25,7 +25,7 @@ int main()
 
     // mouse text
     sf::Font font;
-    if (!font.loadFromFile("/Users/raheem/Desktop/Code/Projects/C++/PathfindingAlgorithmVisualizer/Fonts/Roboto-Regular.ttf")) {
+    if (!font.loadFromFile("/Fonts/Roboto-Regular.ttf")) {
         return -1;
     }
 
