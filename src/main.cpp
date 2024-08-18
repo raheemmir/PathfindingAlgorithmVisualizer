@@ -7,7 +7,7 @@
 
 int main()
 {
-    auto window = sf::RenderWindow{{1920u, 1080u}, "CMake SFML Project"};
+    auto window = sf::RenderWindow{{1920u, 1080u}, "Pathfinding Visualizer Project"};
     window.setFramerateLimit(60);
 
     // grid variables
@@ -156,7 +156,7 @@ int main()
                 clock.restart();
             }
         }
-        
+
         // mouse positioning
         sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
         // in terms of grid coords
